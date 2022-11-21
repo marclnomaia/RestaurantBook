@@ -1,0 +1,98 @@
+ <!DOCTYPE html >
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Sign Up Form by Colorlib</title>
+
+
+            <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+
+              <link rel="stylesheet" href="css/style.css">
+              </head>
+              <body>
+
+                <div class="main">
+
+                  <div class="container">
+                    <div class="booking-content">
+                      <div class="booking-image">
+                        <img class="booking-img" src="images/form-img.jpg" alt="Booking Image">
+                      </div>
+                      <div class="booking-form" name="book" >
+                        <form id="booking-form" >
+                          <h2>Booking place for your dinner!</h2>
+                          <div class="form-group form-input">
+                            <input type="text" name="name" id="name" value="" onchange="validateName()" />
+                            <label for="name" class="form-label" >Your full name</label>
+                          </div>
+                          <div class="form-group form-input">
+                            <input type="number" name="phone" id="phone" value="" onchange="validatePhone()" />
+                            <label for="phone" class="form-label">Your phone number</label>
+                          </div>
+                          <div class="form-group" >
+                            <div class="select-list" id="time_list">
+                              <select name="time" id="time">
+                                <option value="">Time</option>
+                                <option value="6pm">6:00 PM</option>
+                                <option value="7pm">7:00 PM</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="form-group" >
+                            <div class="select-list" id="diners_list">
+                              <select name="diners" id="diners" >
+                                <option value="">How many diners?</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div>
+                            <label class="label-radio" id="options"> What would you like to have with us ?</label>
+                            <div>
+                              <table>
+                                <tr>
+                                  <td width="30%"><input type="checkbox" name="item" value="Starters" id="item_starters" /></td>
+                                  <td><label for="item_starters">Starters</label></td>
+                                </tr>
+                                <tr>
+                                  <td><input type="checkbox" name="item" value="main" id="item_main" /></td>
+                                  <td><label for="item_main">Main Course</label></td>
+                                </tr>
+                                <tr>
+                                  <td><input type="checkbox" name="item" value="Desserts" id="item_dessert" /></td>
+                                  <td><label for="item_dessert">Desserts</label></td>
+                                </tr>
+                                <tr>
+                                  <td><input type="checkbox" name="item" value="Drinks" id="item_drink" /></td>
+                                  <td><label for="item_drink">Drinks</label></td>
+                                </tr>
+                              </table>
+
+
+                            </div>
+                          </div>
+                          <div class="form-submit" >
+                            <input type="button" value="Book now" class="submit" id="submit" name="submit" onclick="validateButton()" />
+
+                            <a href="#" class="vertify-booking">Verify your booking info from your phone</a>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <script src="vendor/jquery/jquery.min.js"></script>
+                <script src="js/main.js"></script>-->
+              </body>
+            </html>
